@@ -1,9 +1,9 @@
-const BASE_URL = 'http://localhost:3000/api'; // ✅ backend port
+const BASE_URL = 'https://nagar-nigam-complaint-management-system.onrender.com/api'; 
 
 // Complaint APIs
 export const MY_COMPLAINTS_API = `${BASE_URL}/complaints/my-complaints`;
 export const DELETE_COMPLAINT_API = `${BASE_URL}/complaints/delete`;
-export const CREATE_COMPLAINT_API = `${BASE_URL}/complaints/submit-complaint`; // ✅ fixed
+export const CREATE_COMPLAINT_API = `${BASE_URL}/complaints/submit-complaint`; 
 
 // Admin APIs
 export const ALL_COMPLAINTS_API = `${BASE_URL}/admin/all`;
