@@ -1,0 +1,108 @@
+.admin-dashboard {
+  background-color: #f4f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-header {
+ display: flex;
+  flex-direction: center; 
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004B7F;
+  padding: 40px;
+  position: relative; 
+}
+
+
+.admin-header-left {
+  display: flex;
+  align-items: center;
+}
+.admin-header-left h2 {
+  color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+}
+
+.admin-logo {
+ width: 55px;
+  height: auto;
+  margin-top: 10px;
+  position: absolute;
+  left: 20px; 
+}
+
+.admin-header-left h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.admin-card-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+.admin-card {
+  background-color: #b2ebf2;
+  border-radius: 12px;
+  padding:  40px 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width:100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.admin-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.admin-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.admin-card-text h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.admin-card-text p {
+  margin: 5px 0 0;
+   
+}
+
+.admin-next-button {
+  margin-left: auto;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.admin-footer {
+  background-color: #004080;
+  text-align: center;
+  color: white;
+  padding: 10px;
+   display: none;
+}
+
+.footer-user-icon {
+  width: 40px;
+}

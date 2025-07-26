@@ -1,0 +1,92 @@
+.signin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f2f3f4, #f2f3f4);
+  }
+  
+  .signin-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .single-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #cce6f6;
+    border-bottom: 2px solid #292929;
+  }
+
+  .user-icon {
+    width: 60px;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+  }
+  
+  .role-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .forgot-link {
+    display: block;
+    margin: 10px 0;
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  button {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bottom-logo {
+    margin-top: 20px;
+  }
+  
+  .bottom-logo img {
+    width: 60px;
+  }
+ 

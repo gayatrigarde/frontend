@@ -1,0 +1,25 @@
+.homepage {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 56, 168, 0.5); 
+  }
+  
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  
+.homepage-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 2px solid #fefcfc;
+}
+  

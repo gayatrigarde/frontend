@@ -1,0 +1,84 @@
+.complaint-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(41, 56, 168, 0.5);
+  z-index: 0;
+}
+
+.complaint-card {
+  position: relative;
+  z-index: 1;
+  background: #f9f9f9;
+  padding: 35px 40px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.complaint-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.complaint-card label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #222;
+}
+
+.complaint-card input[type="text"],
+.complaint-card select,
+.complaint-card textarea,
+.complaint-card input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #e7f0ff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.complaint-card textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.complaint-card button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.complaint-card button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: green;
+}

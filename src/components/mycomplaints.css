@@ -1,0 +1,96 @@
+/* Apply full page background color */
+body {
+  background-color: #d6eaf8; /* Light sky-blue shade */
+  margin: 0;
+  padding: 0;
+}
+
+/* Your original styles */
+.my-complaints { 
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e3f2fd; /* Light Blue Background */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.back-btn {
+  width: 100px;
+  height: 45px; 
+  padding: 10px 30px;
+  background: linear-gradient(135deg, #4b6cb7, #5cd6fb);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #314eaa, #5cd6fb);
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 22px;  
+  color: #2c3e50;
+  margin: 0;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.complaint-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.complaint-card {
+  width: 100%;
+  height: auto;
+  max-width: 400px;  
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-size: 13.5px;  
+  transition: 0.2s ease-in-out;
+}
+
+.complaint-card:hover {
+  transform: scale(1.01);
+}
+
+.complaint-img {
+  width: 100%;
+  max-width: 270px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;  
+  font-size: 12px;    
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
